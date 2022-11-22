@@ -15,7 +15,7 @@ site1.localhost: http://site1.localhost
 
 MySql & PhpMyAdmin Credential
 user : root
-password : root
+password : root_password
 
 
 # Comando para criar e subir a infraestrutura docker:
