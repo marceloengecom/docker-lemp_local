@@ -6,16 +6,24 @@
 - Redis Latest
 - PhpMyAdmin Latest
 
+- nginx (80): http://dominio1.com
+- PhpMyAdmin (8001): http://dominio1.com:8001
+- Redis (6379): http://dominio1.com:6379
+- dominio1.com: http://dominio1.com
 
-nginx (80) : http://localhost
-PhpMyAdmin (8000) : http://localhost:8001
-Redis (6379) : http://localhost:6379
-site1.localhost: http://site1.localhost
+   
+# Definir variáveis MariaDB:
+    MYSQL_USER=root
+    MYSQL_ROOT_PASSWORD=sua_senha_root
+    MYSQL_DATABASE=seu_banco_de_dados
 
+# Renomear pastas para o seu respectivo domínio:
 
-MySql & PhpMyAdmin Credential
-user : root
-password : root_password
+- sites/html/site1.localhost
+- sites/html/site2.localhost
+
+- vhosts/sites-available/site1.localhost.conf
+- vhosts/sites-available/site2.localhost.conf
 
 
 # Comando para criar e subir a infraestrutura docker:
