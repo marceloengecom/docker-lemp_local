@@ -25,7 +25,6 @@
 - vhosts/sites-available/site1.localhost.conf
 - vhosts/sites-available/site2.localhost.conf
 
-
 # Comando para criar e subir a infraestrutura docker:
 docker-compose -f docker-compose.yml up -d --build
 
