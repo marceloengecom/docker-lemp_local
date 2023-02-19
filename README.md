@@ -29,3 +29,9 @@ docker-compose -f docker-compose.yml up -d --build
 
 # Comando para recriar a infraestrutura docker:
 docker-compose -f docker-compose.yml up -d --build --force-recreate
+
+
+# Acesso phpMyAdmin:
+    Servidor: mariadb
+    Usuário: root
+    Senha: sua_senha_root  
