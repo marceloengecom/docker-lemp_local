@@ -6,10 +6,9 @@
 - Redis Latest
 - PhpMyAdmin Latest
 
-- nginx (80): http://dominio1.com
-- PhpMyAdmin (8001): http://dominio1.com:8001
-- Redis (6379): http://dominio1.com:6379
-- dominio1.com: http://dominio1.com
+- nginx (80): http://site1.localhost, http://site2.localhost, http://site#.localhost
+- PhpMyAdmin (8001): http://site1.localhost:8001 ou http://localhost:8001
+- Redis (6379): http://site1.localhost:6379
 
    
 # Definir variáveis MariaDB:
