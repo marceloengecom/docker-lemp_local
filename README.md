@@ -6,15 +6,15 @@
 - Redis Latest
 - PhpMyAdmin Latest
 
-- nginx (80): http://site1.localhost, http://site2.localhost, http://site#.localhost
-- PhpMyAdmin (8001): http://site1.localhost:8001 ou http://localhost:8001
+- nginx (8080): http://site1.localhost, http://site2.localhost, http://site#.localhost
+- PhpMyAdmin (8081): http://site1.localhost:8081 ou http://localhost:8081
 - Redis (6379): http://site1.localhost:6379
 
    
 # Definir variáveis MariaDB:
-    MYSQL_USER=root
-    MYSQL_ROOT_PASSWORD=sua_senha_root
     MYSQL_DATABASE=seu_banco_de_dados
+    MYSQL_USER=root
+    MYSQL_ROOT_PASSWORD=sua_senha_root    
 
 # Renomear pastas para o seu respectivo domínio:
 
